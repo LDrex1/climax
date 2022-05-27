@@ -1,0 +1,15 @@
+/* body {
+  position: relative;
+} */
+
+.bg-img {
+  background: url(images/cont1.jpeg);
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+}
+
+nav {
+  z-index: 5000;
+}

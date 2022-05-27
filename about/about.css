@@ -1,0 +1,33 @@
+#wrapper-img {
+  background: url("../images/blue.jpg") no-repeat center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  /* background: rgb(25, 20, 77); */
+}
+
+nav {
+  z-index: 5000;
+}
+
+@media screen and (max-width: 992px) {
+  .w-50 {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 598px) {
+  #wrapper-img {
+    background: url("../images/blue.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 3%;
+  }
+}
+
+@media screen and (max-width: 915px) and (min-height: 1100px) {
+  #wrapper-img {
+    background: url("../images/blue.jpg");
+  }
+}
