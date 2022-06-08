@@ -5,11 +5,9 @@
   background-position: 1% 25%;
   min-height: 100vh;
 }
-
 nav {
   z-index: 5000;
 }
-
 @media screen and (max-width: 598px) {
   #wrapper-img {
     background: url("images/play.jpg");
@@ -18,14 +16,12 @@ nav {
     background-position: 50% 0%;
   }
 }
-
 @media screen and (max-width: 768px) {
   footer {
     margin-top: 50px;
     color: #576873;
   }
 }
-
 @media screen and (max-width: 915px) and (min-height: 1024px) {
   #wrapper-img {
     background: url("images/shatter.jpg");

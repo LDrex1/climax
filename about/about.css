@@ -5,17 +5,14 @@
   background-position: center;
   min-height: 100vh;
 }
-
 nav {
   z-index: 5000;
 }
-
 @media screen and (max-width: 992px) {
   .w-50 {
     width: 100% !important;
   }
 }
-
 @media screen and (max-width: 598px) {
   #wrapper-img {
     background: url("../images/blue.jpg");
@@ -24,7 +21,6 @@ nav {
     background-position: 50% 3%;
   }
 }
-
 @media screen and (max-width: 915px) and (min-height: 1100px) {
   #wrapper-img {
     background: url("../images/blue.jpg");
