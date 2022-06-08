@@ -21,8 +21,3 @@ nav {
     background-position: 50% 3%;
   }
 }
-@media screen and (max-width: 915px) and (min-height: 1100px) {
-  #wrapper-img {
-    background: url("../images/blue.jpg");
-  }
-}
